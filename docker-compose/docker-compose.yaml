@@ -78,7 +78,7 @@ services:
       - 'XDG_CONFIG_HOME=/caddy-storage/config'
       - 'SRC_FRONTEND_ADDRESSES=sourcegraph-frontend-0:3080'
       # Uncomment & update this line when using Let's Encrypt or custom HTTPS certificates:
-      - 'SRC_SITE_ADDRESS=sourcegraph-dev.infura.cloud'
+      - 'SRC_SITE_ADDRESS=sourcegraph-dev.internal.infura.org'
       #
       # Uncomment & update the following line when using HTTPS with Let's Encrypt
       - 'SRC_ACME_EMAIL=danny.froberg@consensys.net'
